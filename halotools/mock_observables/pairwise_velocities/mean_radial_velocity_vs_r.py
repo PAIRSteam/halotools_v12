@@ -225,7 +225,7 @@ def mean_radial_velocity_vs_r(sample1, velocities1,
 
     mean_radial_velocity = np.zeros(len(vrad_sum))
     mean_radial_velocity[counts > 0] = vrad_sum[counts > 0]/counts[counts > 0]
-    return mean_radial_velocity
+    return mean_radial_velocity, counts
 
 
 def _process_args(sample1, velocities1, sample2, velocities2,
