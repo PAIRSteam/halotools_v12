@@ -1,6 +1,7 @@
 [project]
-name = "halotools"
-dynamic = ["version", "dependencies"]
+name = "halotools_v12"
+version = "0.1.dev5629"    # version.py 
+dynamic = ["dependencies"] #["version", "dependencies"]
 description = "Package designed to analyze N-body simulations and constrain models of cosmology and galaxy evolution"
 readme = "README.rst"
 authors = [
@@ -32,8 +33,8 @@ docs = [
 
 [tool.setuptools]
 include-package-data = true
-package-dir = {halotools = "halotools"}
-package-data = {halotools = ["data/*", "*/data/*", "*/*/data/*", "*/*/*/data/*", "*/*/*/*/data/*", "*/*/*/*/*/data/*", "*/*/*/*/*/*/data/*"]}
+package-dir = {halotools_v12 = "halotools_v12"}
+package-data = {halotools_v12 = ["data/*", "*/data/*", "*/*/data/*", "*/*/*/data/*", "*/*/*/*/data/*", "*/*/*/*/*/data/*", "*/*/*/*/*/*/data/*"]}
 
 [tool.pytest.ini_options]
 minversion = "7.0"
