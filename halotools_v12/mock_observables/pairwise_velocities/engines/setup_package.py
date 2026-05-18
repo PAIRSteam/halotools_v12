@@ -9,6 +9,7 @@ SOURCES = (
     "velocity_marked_npairs_xy_z_engine.pyx",
     "mean_radial_velocity_vs_r_engine.pyx",
     "radial_pvd_vs_r_engine.pyx",
+    "v12_distribution_vs_r_engine.pyx",
 )
 
 THIS_PKG_NAME = ".".join(__name__.split(".")[:-1])
